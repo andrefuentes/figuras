@@ -1,5 +1,5 @@
 from figura import Figurageometrica
-class triagulo(Figurageometrica):
+class Triangulo(Figurageometrica):
 	def __init__ (self,altura):
 		super(). __init__ (altura,base)
 	def imprimir (self):

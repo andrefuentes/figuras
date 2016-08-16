@@ -1,5 +1,5 @@
 from figura import Figurageometrica
-class cuadrado (Figurageometrica):
+class Cuadrado(Figurageometrica):
 	def __init__ (self,lado):
 		super(). __init__ (lado,lado)
 	def imprimir (self):
@@ -7,4 +7,3 @@ class cuadrado (Figurageometrica):
 		for i in range (self.altura):
 			resultado+="*"*(self.base)+"\n"
 		return resultado
-
